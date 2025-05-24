@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>マルチ連打くん | Download</title>
+
+  <!-- Google Font（オープンソースなので商用でも安心） -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --accent:#4e9af1;
+      --bg-from:#f5f7fa;
+      --bg-to:#e2e6ec;
+    }
+    html,body{
+      margin:0;
+      font-family:"Noto Sans JP",sans-serif;
+      min-height:100vh;
+      background:linear-gradient(160deg,var(--bg-from),var(--bg-to));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .card{
+      background:#fff;
+      padding:2.5rem 3rem;
+      border-radius:16px;
+      box-shadow:0 8px 24px rgba(0,0,0,.12);
+      max-width:420px;
+      width:90%;
+      text-align:center;
+    }
+    h1{
+      margin-top:0;
+      font-size:1.8rem;
+      letter-spacing:.02em;
+      color:#222;
+    }
+    p{
+      line-height:1.7;
+      margin:1.2rem 0;
+      font-size:.95rem;
+      color:#444;
+    }
+    .btn{
+      display:inline-block;
+      margin:1.6rem 0 0;
+      padding:.85rem 2.4rem;
+      font-size:1rem;
+      font-weight:700;
+      color:#fff;
+      background:var(--accent);
+      border:none;
+      border-radius:8px;
+      text-decoration:none;
+      transition:transform .15s ease, box-shadow .15s ease;
+    }
+    .btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 6px 16px rgba(78,154,241,.4);
+    }
+    footer{
+      margin-top:1.8rem;
+      font-size:.8rem;
+      color:#666;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>マルチ連打くん<br>ダウンロード</h1>
+
+    <!-- ダウンロードボタン（GitHub Pages では相対パスでOK） -->
+    <a class="btn" href="マルチ連打くん.exe" download>⬇ ダウンロード</a>
+
+    <p>
+      マルチ連打くんの動作については一切保証致しません。<br>
+      ダウンロードは<strong>自己責任</strong>でお願いします。
+    </p>
+
+    <p>
+      バグ報告などは Discord の方に<br>
+      ID：<code>leme_doru8</code>
+    </p>
+
+    <footer>
+      &copy; 2025 leme_doru8
+    </footer>
+  </main>
+</body>
+</html>
